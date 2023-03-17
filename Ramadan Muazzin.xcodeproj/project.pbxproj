@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0440365029C3B1350085310C /* OylikView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440364F29C3B1350085310C /* OylikView.swift */; };
+		0440365229C3B47F0085310C /* OylikTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440365129C3B47F0085310C /* OylikTableViewCell.swift */; };
+		04648ED729C34DC400A2248A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04648ED629C34DC400A2248A /* TableViewCell.swift */; };
+		04648ED929C34E5A00A2248A /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04648ED829C34E5A00A2248A /* model.swift */; };
+		0479E3B429C3614300BEBD57 /* KunlikView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479E3B329C3614300BEBD57 /* KunlikView.swift */; };
+		0479E3C429C36C7000BEBD57 /* Metropolis-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0479E3C229C36C3D00BEBD57 /* Metropolis-Bold.otf */; };
+		0479E3C529C36C7800BEBD57 /* Metropolis-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0479E3C129C36C3D00BEBD57 /* Metropolis-Medium.otf */; };
+		0479E3C629C36C7B00BEBD57 /* Metropolis-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0479E3C029C36C3D00BEBD57 /* Metropolis-Regular.otf */; };
+		0479E3C729C36C7F00BEBD57 /* Metropolis-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0479E3C329C36C3D00BEBD57 /* Metropolis-SemiBold.otf */; };
+		0479E3CA29C36E7500BEBD57 /* fontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479E3C929C36E7500BEBD57 /* fontExtension.swift */; };
+		04D9F5DA29C21B9900FB2B92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D9F5D929C21B9900FB2B92 /* AppDelegate.swift */; };
+		04D9F5E329C21B9B00FB2B92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D9F5E229C21B9B00FB2B92 /* Assets.xcassets */; };
+		04D9F5E629C21B9B00FB2B92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D9F5E429C21B9B00FB2B92 /* LaunchScreen.storyboard */; };
+		04D9F5EE29C21BCF00FB2B92 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D9F5ED29C21BCF00FB2B92 /* MainViewController.swift */; };
+		04D9F5F129C220A400FB2B92 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 04D9F5F029C220A400FB2B92 /* SnapKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0440364F29C3B1350085310C /* OylikView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OylikView.swift; sourceTree = "<group>"; };
+		0440365129C3B47F0085310C /* OylikTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OylikTableViewCell.swift; sourceTree = "<group>"; };
+		04648ED629C34DC400A2248A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		04648ED829C34E5A00A2248A /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		0479E3B329C3614300BEBD57 /* KunlikView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KunlikView.swift; sourceTree = "<group>"; };
+		0479E3C029C36C3D00BEBD57 /* Metropolis-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Metropolis-Regular.otf"; path = "../../../../../Downloads/metropolis/Metropolis-Regular.otf"; sourceTree = "<group>"; };
+		0479E3C129C36C3D00BEBD57 /* Metropolis-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Metropolis-Medium.otf"; path = "../../../../../Downloads/metropolis/Metropolis-Medium.otf"; sourceTree = "<group>"; };
+		0479E3C229C36C3D00BEBD57 /* Metropolis-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Metropolis-Bold.otf"; path = "../../../../../Downloads/metropolis/Metropolis-Bold.otf"; sourceTree = "<group>"; };
+		0479E3C329C36C3D00BEBD57 /* Metropolis-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Metropolis-SemiBold.otf"; path = "../../../../../Downloads/metropolis/Metropolis-SemiBold.otf"; sourceTree = "<group>"; };
+		0479E3C929C36E7500BEBD57 /* fontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fontExtension.swift; sourceTree = "<group>"; };
+		04D9F5D629C21B9900FB2B92 /* Ramadan Muazzin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ramadan Muazzin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D9F5D929C21B9900FB2B92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04D9F5E229C21B9B00FB2B92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04D9F5E529C21B9B00FB2B92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04D9F5E729C21B9B00FB2B92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D9F5ED29C21BCF00FB2B92 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D9F5D329C21B9900FB2B92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D9F5F129C220A400FB2B92 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0479E3B529C36B7D00BEBD57 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				0479E3C229C36C3D00BEBD57 /* Metropolis-Bold.otf */,
+				0479E3C129C36C3D00BEBD57 /* Metropolis-Medium.otf */,
+				0479E3C029C36C3D00BEBD57 /* Metropolis-Regular.otf */,
+				0479E3C329C36C3D00BEBD57 /* Metropolis-SemiBold.otf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		04D9F5CD29C21B9900FB2B92 = {
+			isa = PBXGroup;
+			children = (
+				04D9F5D829C21B9900FB2B92 /* Ramadan Muazzin */,
+				04D9F5D729C21B9900FB2B92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04D9F5D729C21B9900FB2B92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04D9F5D629C21B9900FB2B92 /* Ramadan Muazzin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04D9F5D829C21B9900FB2B92 /* Ramadan Muazzin */ = {
+			isa = PBXGroup;
+			children = (
+				04D9F5D929C21B9900FB2B92 /* AppDelegate.swift */,
+				0479E3C929C36E7500BEBD57 /* fontExtension.swift */,
+				0479E3B329C3614300BEBD57 /* KunlikView.swift */,
+				04648ED629C34DC400A2248A /* TableViewCell.swift */,
+				04D9F5E229C21B9B00FB2B92 /* Assets.xcassets */,
+				04D9F5ED29C21BCF00FB2B92 /* MainViewController.swift */,
+				0440364F29C3B1350085310C /* OylikView.swift */,
+				0440365129C3B47F0085310C /* OylikTableViewCell.swift */,
+				0479E3B529C36B7D00BEBD57 /* font */,
+				04648ED829C34E5A00A2248A /* model.swift */,
+				04D9F5E429C21B9B00FB2B92 /* LaunchScreen.storyboard */,
+				04D9F5E729C21B9B00FB2B92 /* Info.plist */,
+			);
+			path = "Ramadan Muazzin";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04D9F5D529C21B9900FB2B92 /* Ramadan Muazzin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D9F5EA29C21B9B00FB2B92 /* Build configuration list for PBXNativeTarget "Ramadan Muazzin" */;
+			buildPhases = (
+				04D9F5D229C21B9900FB2B92 /* Sources */,
+				04D9F5D329C21B9900FB2B92 /* Frameworks */,
+				04D9F5D429C21B9900FB2B92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ramadan Muazzin";
+			packageProductDependencies = (
+				04D9F5F029C220A400FB2B92 /* SnapKit */,
+			);
+			productName = "Ramadan Muazzin";
+			productReference = 04D9F5D629C21B9900FB2B92 /* Ramadan Muazzin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D9F5CE29C21B9900FB2B92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					04D9F5D529C21B9900FB2B92 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 04D9F5D129C21B9900FB2B92 /* Build configuration list for PBXProject "Ramadan Muazzin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04D9F5CD29C21B9900FB2B92;
+			packageReferences = (
+				04D9F5EF29C220A400FB2B92 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 04D9F5D729C21B9900FB2B92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04D9F5D529C21B9900FB2B92 /* Ramadan Muazzin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D9F5D429C21B9900FB2B92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0479E3C629C36C7B00BEBD57 /* Metropolis-Regular.otf in Resources */,
+				0479E3C529C36C7800BEBD57 /* Metropolis-Medium.otf in Resources */,
+				04D9F5E629C21B9B00FB2B92 /* LaunchScreen.storyboard in Resources */,
+				04D9F5E329C21B9B00FB2B92 /* Assets.xcassets in Resources */,
+				0479E3C729C36C7F00BEBD57 /* Metropolis-SemiBold.otf in Resources */,
+				0479E3C429C36C7000BEBD57 /* Metropolis-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D9F5D229C21B9900FB2B92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04648ED729C34DC400A2248A /* TableViewCell.swift in Sources */,
+				04D9F5DA29C21B9900FB2B92 /* AppDelegate.swift in Sources */,
+				0479E3B429C3614300BEBD57 /* KunlikView.swift in Sources */,
+				04D9F5EE29C21BCF00FB2B92 /* MainViewController.swift in Sources */,
+				0479E3CA29C36E7500BEBD57 /* fontExtension.swift in Sources */,
+				04648ED929C34E5A00A2248A /* model.swift in Sources */,
+				0440365229C3B47F0085310C /* OylikTableViewCell.swift in Sources */,
+				0440365029C3B1350085310C /* OylikView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04D9F5E429C21B9B00FB2B92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D9F5E529C21B9B00FB2B92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04D9F5E829C21B9B00FB2B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04D9F5E929C21B9B00FB2B92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04D9F5EB29C21B9B00FB2B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y6KM2TQ2K4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ramadan Muazzin/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "isroil.Ramadan-Muazzin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04D9F5EC29C21B9B00FB2B92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y6KM2TQ2K4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ramadan Muazzin/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "isroil.Ramadan-Muazzin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D9F5D129C21B9900FB2B92 /* Build configuration list for PBXProject "Ramadan Muazzin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D9F5E829C21B9B00FB2B92 /* Debug */,
+				04D9F5E929C21B9B00FB2B92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D9F5EA29C21B9B00FB2B92 /* Build configuration list for PBXNativeTarget "Ramadan Muazzin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D9F5EB29C21B9B00FB2B92 /* Debug */,
+				04D9F5EC29C21B9B00FB2B92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		04D9F5EF29C220A400FB2B92 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04D9F5F029C220A400FB2B92 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04D9F5EF29C220A400FB2B92 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 04D9F5CE29C21B9900FB2B92 /* Project object */;
+}
